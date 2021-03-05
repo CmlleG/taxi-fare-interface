@@ -1,7 +1,7 @@
 const algoliaPlacesApiAppId = 'plU4N8HG6QWK';
 const algoliaPlacesApiKey = '1131438afb49f60a48ed468c5af189b8';
 const mapboxApiToken = 'pk.eyJ1IjoiY21sbGVnIiwiYSI6ImNrbHc0cDB1YzFtaGUyeW1wejU3bGNwbnUifQ.ceBKFa4DcUpn6iKvPL2l9g';
-const taxiFareApiUrl = 'http://taxifare.lewagon.ai/predict_fare/'
+const taxiFareApiUrl = 'https://taxifare.lewagon.ai/predict_fare/'
 
 const displayMap = (start, stop) => {
   mapboxgl.accessToken = mapboxApiToken;
